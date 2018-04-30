@@ -1,2 +1,16 @@
 # 100-days-of-code-challenge
-The first part of my 100 Days of Code Challenge, the primary goal being to learn Python!
+
+A source for all of my 100 days of code challenge, which will mostly comprise of the 
+following experiments: 
+
+- Python
+- Swift
+- Rust
+- GoLang
+
+Interested in participating? Visit [The Offical 100 Days of Code](100daysofcode.com)
+website!
+
+## Week 1
+TBD - Python
+
