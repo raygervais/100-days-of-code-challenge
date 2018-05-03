@@ -15,6 +15,10 @@ echo "Creating folder structure for $WeekNumber"
     echo "# Week $WeekNumber" >> README.md
     echo "---" >> README.md
 
+    # Init __init__.py
+    touch __init__.py
+    echo "__author__ = 'RayGervais'" >> __init__.py
+
     cd ..
 
     # Success Notification
