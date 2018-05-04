@@ -33,11 +33,12 @@ if result.status_code != 200:
 	print('Error with request')
 	exit(1)
 
-print(result.json())
+print("Next, you're going to select your favorite dog breed, a list can be found here:")
+print("https://dog.ceo/dog-api/breeds-list")
+print()
 
 breed = input("What's your favourite dog breed? ")
 api_url = 'https://dog.ceo/api/breed/{}/images'.format(breed)
-
 
 result = requests.get(api_url)
 if result.status_code != 200:

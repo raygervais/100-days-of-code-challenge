@@ -26,3 +26,5 @@ demonstrated over the weekend.
 
 `BASH`: Added `__init__.py` to generator script.
 
+## Day 4: 
+`Python`: First introduction to using pip to install dependencies, watching it break on Ubuntu 18.04 (can be read more here as to potential reasons: https://github.com/pypa/pip/issues/5240) while trying to install pipenv which I understand to similar to `npm`. Interacted with `requests` module to do basic get request, and from there building a dog breed image gallery.
