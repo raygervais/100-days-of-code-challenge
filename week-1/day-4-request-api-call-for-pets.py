@@ -46,10 +46,10 @@ if result.status_code != 200:
 
 html_body = ""
 
-for dog in result.json():
+for dog in result.json()['message']:
 	html_body += "<br />"
 
-	img = '<img src={} width="100%" max-width="920px" alt="Breed: {}>"'
+	img = '<img src={} style="width:100%; max-width:520px;" alt="Breed: {}>"'
 	img = img.format(dog, breed)
 
 	html_body += img
