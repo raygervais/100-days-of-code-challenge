@@ -30,6 +30,9 @@ class Dog:
         self.tricks = map(self._remove_old_trick_comparitor, self.tricks)
         return
 
+##########################################################################################
+# Main Testing Logic
+##########################################################################################
 # My First Dog
 good_boy = Dog('Beagle', 'Tucker')
 good_boy._add_new_bag_of_tricks(['Sleeping', 'Eating', 'Fetching'])

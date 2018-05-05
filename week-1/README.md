@@ -28,3 +28,7 @@ demonstrated over the weekend.
 
 ## Day 4: 
 `Python`: First introduction to using pip to install dependencies, watching it break on Ubuntu 18.04 (can be read more here as to potential reasons: https://github.com/pypa/pip/issues/5240) while trying to install pipenv which I understand to similar to `npm`. Interacted with `requests` module to do basic get request, and from there building a dog breed image gallery.
+
+## Day 5: 
+`Python`: First introduction to Python classes, working more with the Dogs model which was described from Day 4's little project. 
+This also introduced me to more string manipulation using the offical built in functions and even some functional programming!.
