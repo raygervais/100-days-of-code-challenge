@@ -32,3 +32,12 @@ demonstrated over the weekend.
 ## Day 5: 
 `Python`: First introduction to Python classes, working more with the Dogs model which was described from Day 4's little project. 
 This also introduced me to more string manipulation using the offical built in functions and even some functional programming!.
+
+### Day 6: 
+`Python`: Purely a research dirven day learning best practices and 'best' ways of accomplishing certain tasks such as file opening, scopes, and object management. Discovered quite a few useful resources such as: 
+- http://docs.python-guide.org/en/latest/writing/style/
+- https://www.cs.cmu.edu/~srini/15-441/F11/lectures/r04-python.pdf
+- https://github.com/mikeckennedy/write-pythonic-code-demos/tree/master/code/ch_01_pep8
+- pep8 (linting standard)
+
+This was applied to Day 6's update of the Day 4 API Poller.
