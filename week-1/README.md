@@ -33,7 +33,7 @@ demonstrated over the weekend.
 `Python`: First introduction to Python classes, working more with the Dogs model which was described from Day 4's little project. 
 This also introduced me to more string manipulation using the offical built in functions and even some functional programming!.
 
-### Day 6: 
+## Day 6: 
 `Python`: Purely a research dirven day learning best practices and 'best' ways of accomplishing certain tasks such as file opening, scopes, and object management. Discovered quite a few useful resources such as: 
 - http://docs.python-guide.org/en/latest/writing/style/
 - https://www.cs.cmu.edu/~srini/15-441/F11/lectures/r04-python.pdf
@@ -41,3 +41,10 @@ This also introduced me to more string manipulation using the offical built in f
 - pep8 (linting standard)
 
 This was applied to Day 6's update of the Day 4 API Poller.
+
+## Day 7: 
+`Python`: Applied similar pythonic fixes to the Dog Class implementation from Day 5, also installing pep8, pycodestyle and a few modules which I hope to use in the coming days too! I recommend installing the following for VSCode if you are using it for Python Development: 
+- Python by Microsoft   => Python Language Support
+- Code Runner by Jun Han => Code Execution / Interpreter 
+- Magic Python by MagicStack Inc. => Syntax Highlighting for Modern Projects
+- Better Comments => Better Comment Highlighting
