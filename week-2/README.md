@@ -11,3 +11,9 @@
 - Write a Function
 - Print Function
 
+## Day 9:
+`Python`: Did the following HackerRank Python3 Challenges: 
+- Loops!
+- Find The Runner Up Score! <- Learned about Lambdas and more Functional Programming.
+
+
