@@ -16,4 +16,7 @@
 - Loops!
 - Find The Runner Up Score! <- Learned about Lambdas and more Functional Programming.
 
-
+## Day 10:
+`Python`: Did the following HackerRank Python3 Challenges: 
+- Finding the Percentage
+- Numpy Sum and Prod <- Need to Correct for specific edge cases going forward, see commented out version.
