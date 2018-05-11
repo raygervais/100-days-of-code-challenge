@@ -20,3 +20,16 @@
 `Python`: Did the following HackerRank Python3 Challenges: 
 - Finding the Percentage
 - Numpy Sum and Prod <- Need to Correct for specific edge cases going forward, see commented out version.
+
+## Day 11: 
+`Python`: Completed `Bytes of Python`, learned some of the differences between Django and Flask Web Frameworks.
+
+## Day 12: 
+`Python`: Did the following HackerRank Python3 Challenges:
+- Lists
+- Tuples
+- Swap-Case
+- Split and Join
+- Whats Your Name
+- Mutate a String
+- Find a String
