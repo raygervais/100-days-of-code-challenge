@@ -33,3 +33,9 @@
 - Whats Your Name
 - Mutate a String
 - Find a String
+
+## Day 13: 
+`Python`: Did the following HackerRank Python3 Challenges: 
+- String Validators
+- Text-Alignment
+- Text-Wrap
