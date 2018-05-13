@@ -14,12 +14,12 @@
 ## Day 9:
 `Python`: Did the following HackerRank Python3 Challenges: 
 - Loops!
-- Find The Runner Up Score! <- Learned about Lambdas and more Functional Programming.
+- Find The Runner Up Score! - Learned about Lambdas and more Functional Programming.
 
 ## Day 10:
 `Python`: Did the following HackerRank Python3 Challenges: 
 - Finding the Percentage
-- Numpy Sum and Prod <- Need to Correct for specific edge cases going forward, see commented out version.
+- Numpy Sum and Prod - Need to Correct for specific edge cases going forward, see commented out version.
 
 ## Day 11: 
 `Python`: Completed `Bytes of Python`, learned some of the differences between Django and Flask Web Frameworks.
@@ -39,3 +39,9 @@
 - String Validators
 - Text-Alignment
 - Text-Wrap
+
+## Day 14:
+`Python`: Did the following HackerRank Python3 Challenges:
+- String Formatting
+- Capitalize
+- The Minion Game
