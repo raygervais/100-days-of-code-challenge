@@ -12,3 +12,6 @@ following steps:
 - Creating the first view for Polls Module, including the PATH to the project
 - Adding Polls Application Paths management to Project Web Server
 
+## Day 16:
+`Python`: Continued Django Getting Started tutorial, creating models and integrating SQLite3
+
