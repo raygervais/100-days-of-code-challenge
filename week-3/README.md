@@ -15,3 +15,5 @@ following steps:
 ## Day 16:
 `Python`: Continued Django Getting Started tutorial, creating models and integrating SQLite3
 
+## Day 17:
+`Python`: Continued Django Getting Started tutorial, adding Question model to admin domain
