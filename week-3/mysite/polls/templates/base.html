@@ -9,18 +9,34 @@
 </head>
 
 <body>
+    <nav class="navbar is-light">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="{% url 'polls:index' %}">Polls</a>
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+            
+        </div>
+    </nav>
     <section class="section">
-        <h1 class="is-size-4">{% block title %} {% endblock %}</h1>
-        <div class="container">
-            <div class="columns">
-                <div class="column is-2">
-                    {% block sidebar %}<!-- insert default navigation text for every page -->{% endblock %}
+    <div class="columns">
+        <div class="column">
+            <div class="card-">
+                <div class="card-header">
+                       <h1 class="title is-1">
+                            {% block title %} {% endblock %}
+                       </h1> 
                 </div>
-                <div class="column">
-                    {% block content %}<!-- default content text (typically empty) -->{% endblock %}
+                <div class="card-content">
+                        {% block content %}<!-- default content text (typically empty) -->{% endblock %}
+
                 </div>
             </div>
-        </div>    
+        </div>
+    </div>
+           
     </section>
     
 </body>

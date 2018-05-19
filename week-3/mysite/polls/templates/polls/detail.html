@@ -1,20 +1,26 @@
 <!-- detail.html -->
 {% extends "base.html" %}
 
-{% block title %}Polls: Details{% endblock %}
+{% block title %}Details{% endblock %}
 
 
 {% block content %}
-    <h1>{{ question.question_text }}</h1>
+<h1 class="title is-2">{{ question.question_text }}</h1>
 
-    {% if error_message %}<p><strong>{{ error_message }}</strong></p>{% endif %}
+{% if error_message %}<p><strong>{{ error_message }}</strong></p>{% endif %}
 
-    <form action="{% url 'polls:vote' question.id %}" method="post">
+<form action="{% url 'polls:vote' question.id %}" method="post">
     {% csrf_token %}
     {% for choice in question.choice_set.all %}
-        <input type="radio" name="choice" id="choice{{ forloop.counter }}" value="{{ choice.id }}" />
-        <label for="choice{{ forloop.counter }}">{{ choice.choice_text }}</label><br />
+    <div class="field">
+        <div class="control">
+                <label class="radio" for="choice{{ forloop.counter }}">{{ choice.choice_text }}
+                        <input class="radio" type="radio" name="choice" id="choice{{ forloop.counter }}" value="{{ choice.id }}" />
+                    </label>
+        </div>
+
+    </div>
     {% endfor %}
-    <input type="submit" value="Vote" />
-    </form>
+    <input class="button" type="submit" value="Vote" />
+</form>
 {% endblock %}
