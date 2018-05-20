@@ -35,3 +35,12 @@ following steps:
 - Using the Template System
 - Removing Hardcoded URLs from Templates
 - Namespacing URL Names
+
+## Day 19 & 20: 
+`Python`: Completed Django's Getting Started Tutorial Part 4, which included the following steps: 
+- Write a Simple Form
+- Using Generic Views
+- Amend Views
+- Introduction to Templating (Custom Lesson)
+- Adding the Static Base Template (Custom Lesson)
+- Adding BulmaCSS to Polls Application
