@@ -8,3 +8,7 @@
 
 ## Day 26
 `Python`: Created and Integrated auth0 API Services into a Private / Public View
+
+## Day 27 & 28: 
+`JavaScript`: Worked with VueJS to create Front-end for Auth0 and Django Back-end
+
