@@ -1,31 +1,35 @@
 <template>
-    <div>
-        <button
-            class=""
-            v-if="!authenticated"
-            @click="login()">
-            Log In
-        </button>
+    <section class="section">
+        <div class="container">
+            <button
+                class="button is-rounded"
+                v-if="!authenticated"
+                @click="login()">
+                Log In
+            </button>
 
-        <button
-            class=""
-            v-if="authenticated"
-            @click="privateMessage()">
-            Call Private
-        </button>
-
-        <button
-            class=""
-            v-if="authenticated"
-            @click="logout()">
-            Log Out
-        </button>
-
-        {{message}}
-
-        <br />
-
-    </div>
+            <div class="field is-grouped">
+                <p class="control">
+                    <button
+                        class="button"
+                        v-if="authenticated"
+                        @click="privateMessage()">
+                        Call Private
+                    </button>
+                </p>
+                <p class="control">
+                    <button
+                        class="button is-rounded"
+                        v-if="authenticated"
+                        @click="logout()">
+                        Log Out
+                    </button>
+                </p>
+            </div>
+            {{message}}
+            <br />
+        </div>
+    </section>
 </template>
 
 <script>

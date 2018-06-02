@@ -12,3 +12,5 @@
 ## Day 27 & 28: 
 `JavaScript`: Worked with VueJS to create Front-end for Auth0 and Django Back-end
 
+## Day 29:
+`JavaScript`: Worked on adding Basic BulmaCSS to VueJS Front-end
