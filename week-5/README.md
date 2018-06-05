@@ -15,5 +15,5 @@
 ## Day 29:
 `JavaScript`: Worked on adding Basic BulmaCSS to VueJS Front-end
 
-## Day 30: 
+## Day 30 & 31: 
 `Swift`: Relearned basics of Swift 4.1!
