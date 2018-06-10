@@ -16,6 +16,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        let model = WebServiceModel()
+        
+        let nav = window?.rootViewController as! UINavigationController
+        let tvc = nav.topViewController as! ListViewController
+        
+        tvc.model = model
+
         return true
     }
 

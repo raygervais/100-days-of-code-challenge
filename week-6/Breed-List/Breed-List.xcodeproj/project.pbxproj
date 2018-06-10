@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		1F1D6B0720CA07FD0005DC62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1D6B0620CA07FD0005DC62 /* AppDelegate.swift */; };
-		1F1D6B0920CA07FD0005DC62 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1D6B0820CA07FD0005DC62 /* ViewController.swift */; };
+		1F1D6B0920CA07FD0005DC62 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1D6B0820CA07FD0005DC62 /* ListViewController.swift */; };
 		1F1D6B0C20CA07FD0005DC62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F1D6B0A20CA07FD0005DC62 /* Main.storyboard */; };
 		1F1D6B0E20CA07FF0005DC62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F1D6B0D20CA07FF0005DC62 /* Assets.xcassets */; };
 		1F1D6B1120CA07FF0005DC62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F1D6B0F20CA07FF0005DC62 /* LaunchScreen.storyboard */; };
 		1F1D6B1C20CA07FF0005DC62 /* Breed_ListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1D6B1B20CA07FF0005DC62 /* Breed_ListTests.swift */; };
 		1F1D6B2720CA07FF0005DC62 /* Breed_ListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1D6B2620CA07FF0005DC62 /* Breed_ListUITests.swift */; };
+		1F64B59820CCA58800EEAFD1 /* NetworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F64B59720CCA58800EEAFD1 /* NetworkModel.swift */; };
+		1F98578F20CC9AF600184825 /* Breeds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F98578E20CC9AF600184825 /* Breeds.swift */; };
+		1F98579220CC9C5D00184825 /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F98579120CC9C5D00184825 /* NetworkController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,7 @@
 /* Begin PBXFileReference section */
 		1F1D6B0320CA07FD0005DC62 /* Breed-List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Breed-List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F1D6B0620CA07FD0005DC62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1F1D6B0820CA07FD0005DC62 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1F1D6B0820CA07FD0005DC62 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		1F1D6B0B20CA07FD0005DC62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1F1D6B0D20CA07FF0005DC62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F1D6B1020CA07FF0005DC62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +50,9 @@
 		1F1D6B2220CA07FF0005DC62 /* Breed-ListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Breed-ListUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F1D6B2620CA07FF0005DC62 /* Breed_ListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Breed_ListUITests.swift; sourceTree = "<group>"; };
 		1F1D6B2820CA07FF0005DC62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F64B59720CCA58800EEAFD1 /* NetworkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkModel.swift; sourceTree = "<group>"; };
+		1F98578E20CC9AF600184825 /* Breeds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Breeds.swift; sourceTree = "<group>"; };
+		1F98579120CC9C5D00184825 /* NetworkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +103,9 @@
 		1F1D6B0520CA07FD0005DC62 /* Breed-List */ = {
 			isa = PBXGroup;
 			children = (
+				1F98579020CC9C4800184825 /* Controllers */,
+				1F98578D20CC9AEA00184825 /* Models */,
 				1F1D6B0620CA07FD0005DC62 /* AppDelegate.swift */,
-				1F1D6B0820CA07FD0005DC62 /* ViewController.swift */,
 				1F1D6B0A20CA07FD0005DC62 /* Main.storyboard */,
 				1F1D6B0D20CA07FF0005DC62 /* Assets.xcassets */,
 				1F1D6B0F20CA07FF0005DC62 /* LaunchScreen.storyboard */,
@@ -123,6 +130,24 @@
 				1F1D6B2820CA07FF0005DC62 /* Info.plist */,
 			);
 			path = "Breed-ListUITests";
+			sourceTree = "<group>";
+		};
+		1F98578D20CC9AEA00184825 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1F98578E20CC9AF600184825 /* Breeds.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1F98579020CC9C4800184825 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1F1D6B0820CA07FD0005DC62 /* ListViewController.swift */,
+				1F98579120CC9C5D00184825 /* NetworkController.swift */,
+				1F64B59720CCA58800EEAFD1 /* NetworkModel.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,7 +281,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F1D6B0920CA07FD0005DC62 /* ViewController.swift in Sources */,
+				1F98579220CC9C5D00184825 /* NetworkController.swift in Sources */,
+				1F1D6B0920CA07FD0005DC62 /* ListViewController.swift in Sources */,
+				1F98578F20CC9AF600184825 /* Breeds.swift in Sources */,
+				1F64B59820CCA58800EEAFD1 /* NetworkModel.swift in Sources */,
 				1F1D6B0720CA07FD0005DC62 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
